@@ -21,6 +21,7 @@ public class StaticDropdown {
 			dropdown.selectByVisibleText("AED");
 			System.out.println(dropdown.getFirstSelectedOption().getText());
 			dropdown.selectByValue("INR");
+// Value is an html attribute. Inspect the html element and its value attribute to select by value.
 			System.out.println(dropdown.getFirstSelectedOption().getText());
 	}
 
